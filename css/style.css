@@ -1,49 +1,90 @@
 html {
-    scroll-behavior: smooth;
-  }
- body{
+    scroll-behavior:smooth;
+}
+
+body {
     margin: 0;
     font-family: cursive;
- }
- .s_bar{
+}
+
+.s_bar {
     width: 100%;
     height: 100px;
     background: green;
-    position: sticky;
+    position: fixed;
     text-align: center;
-    
+    opacity:0.9 ;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+
 }
-.s_bar a{
+
+
+.s_bar a {
     font-size: 50px;
     align-items: center;
     justify-content: center;
     color: black;
     text-decoration: none;
     margin: 10px;
-    
+
 }
-#e_home {
-     
+
+#home {
+    width: 100%;
+    min-height: 547px;
+    float: left;
 }
-.master{
-    width: 250px;
-    height: 200px;
-    border-radius: 130px;
+
+.master {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
     background: red;
-    position: absolute;
-    
-    top: 366px;
-    height: 256px;
+    position: relative;
+    float: left;
+    left: 400px;
+    top: 100px;
+
+
 
 }
-.clas{
-    width: 250px;
-    height: 200px;
-    border-radius: 130px;
-    background: #F79F19;
-    position: absolute;
-    opacity: 0,7;
-    top: 366px;
-    height: 256px;
 
+.clas {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background: #F79F19;
+    position: relative;
+    opacity: 0.9;
+    left: 620px;
+    top: 100px;
+
+
+}
+
+#home h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+#home span{
+    float: right;
+    margin-right: 300px;
+}
+#about {
+    width: 100%;
+    min-height: 547px;
+    float: left;
+    background-color: aqua;
+}
+#contack {
+    width: 100%;
+    min-height: 547px;
+    float: left;
+    background-color: rgb(7, 40, 40);
+}
+.div {
+    width: 580px;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
 }
