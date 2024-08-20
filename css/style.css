@@ -10,7 +10,7 @@ body {
 .s_bar {
     width: 100%;
     height: 100px;
-    background: green;
+    background: red;
     position: fixed;
     text-align: center;
     opacity:0.9 ;
