@@ -73,7 +73,8 @@ body {
 }
 #home span{
     float: right;
-    margin-right: 300px;
+    margin-right: 500px;
+    margin-bottom: 70px;
 }
 #about {
     width: 100%;
