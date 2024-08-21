@@ -270,3 +270,6 @@ body {
     top: 665px;
     left: 22px;
 }
+#myBtn{
+    opacity: 0;
+}
