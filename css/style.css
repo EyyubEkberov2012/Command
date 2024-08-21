@@ -1,5 +1,5 @@
 html {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -13,8 +13,9 @@ body {
     background: red;
     position: fixed;
     text-align: center;
-    opacity:0.9 ;
+    opacity: 0.9;
     z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+
 
 }
 
@@ -26,7 +27,6 @@ body {
     color: black;
     text-decoration: none;
     margin: 10px;
-    
 
 }
 
@@ -35,7 +35,7 @@ body {
     min-height: 800px;
     float: left;
     text-align: center;
-   background-image: url();
+
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -45,13 +45,21 @@ body {
     height: 300px;
     border-radius: 100%;
     background: red;
-    position: relative;
+    position: absolute;
     float: left;
-    left: 550px;
+    left: 10%;
+
+
+
+
+}
+
+.e_main {
+    width: 600px;
+    min-height: 300px;
+    position: relative;
+    left: 25%;
     top: 100px;
-
-
-
 }
 
 .clas {
@@ -59,10 +67,10 @@ body {
     height: 300px;
     border-radius: 100%;
     background: #F79F19;
-    position: relative;
+    position: absolute;
     opacity: 0.9;
-    left: 690px;
-    top: 100px;
+    float: left;
+    left: 40%;
 
 
 }
@@ -70,13 +78,14 @@ body {
 #home h1 {
     text-align: center;
     margin-top: 100px;
-   
 }
-#home span{
+
+#home span {
     float: right;
     margin-right: 500px;
     margin-bottom: 70px;
 }
+
 #about {
     width: 100%;
     min-height: 800px;
@@ -90,20 +99,171 @@ body {
     float: left;
     background-color: rgb(7, 40, 40);
 }
+
 .div {
-    width: 580px;
-    height: 100%;
+    width: 100%;
+    height: 400px;
     background-color: blue;
-    position: absolute;
+    border-radius: 30px;
+    margin-top: 10px;
+    color: black;
+    float: left;
+
+}
+
+.Div2 {
+    width: 40%;
+    min-height: 400px;
+    background-color: white;
+    border-radius: 30px;
+    float: left;
+
+}
+.Div3 {
+    width: 40%;
+    min-height: 400px;
+    background-color: white;
+    border-radius: 30px;
+    float: left;
+
+}
+.Image1{
+    width: 55%;
+    height: 250px;
+    background-image: url(../img/jj.jpg);
+    border-radius: 25px;
+    background-size: cover;
+}
+.Image2{
+    width: 55%;
+    height: 230px;
+    background-image: url(../img/soltan.jpg);
+    border-radius: 25px;
+    background-size: cover;
     
+}
+
+.main {
+    width: 800px;
+    height: 600px;
+    background: red;
+    margin-left: 300px;
+}
+
+.up {
+    max-width: 800px;
+    height: 100px;
+    background: #CCCC52;
+    padding-left: 15px;
+
+}
+.e_about {
+    width: 60%;
+    min-height: 400px;
+    float: left;
+    background-color: lawngreen;
+    border-radius: 30px;
+}
+
+.p {
+    width: 800px;
+    height: 50px;
+    background: #E8D341;
+    float: left;
+
+}
+
+.home {
+    width: 160px;
+    height: 40px;
+    background: #E8D341;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    transition: 0, 4s;
+}
+
+.about {
+    width: 160px;
+    height: 40px;
+    background: #E8D341;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    transition: 0, 4s;
+}
+
+.servic {
+    width: 160px;
+    height: 40px;
+    background: #E8D341;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    transition: 0, 4s;
+}
+
+.concakt {
+    width: 160px;
+    height: 40px;
+    background: #E8D341;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    transition: 0, 4s;
+}
+
+.port {
+    width: 160px;
+    height: 40px;
+    background: #E8D341;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    transition: 0, 4s;
+}
+
+.t {
+    width: 800px;
+    height: 500px;
+    background: #192B33;
+    cursor: grab;
+
+}
+
+.home:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.about:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.servic:hover {
+    color: gray;
+    cursor: pointer;
+
+}
+
+.concakt:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.port:hover {
+    color: gray;
+    cursor: pointer;
 }
 #fixsed{
     width: 70px;
-    height: 50px;
+    height: 70px;
     border-radius: 35px;
     position: fixed;
-    top:623px;
-    left: 1450px;
+    bottom: 0px;
+    right: 50px; 
+    bottom: 70px;
 }
 #myInput{
     position: absolute;
